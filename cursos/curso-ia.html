@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Máster en Inteligencia Artificial</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <script>
+      window.addEventListener("pageshow", (e) => {
+        if (e.persisted) location.reload();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div  class="content-curso-ia">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="../img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="../index.html">Inicio</a>
+            <a href="../quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="../cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="../cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="../registro.html">Registro</a>
+            <a href="../login.html">Login</a>
+        </nav>
+      <div class="container header-content">
+        <!-- LOGO -->
+        <a href="../index.html" class="logo">
+          <img src="../img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <ul>
+            <li><a href="../quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="../cursos/curso-fullstack.html"
+                    >Máster en Desarrollo Web Full-Stack</a
+                  >
+                </li>
+                <li>
+                  <a href="../cursos/curso-ciberseguridad.html"
+                    >Máster en Ciberseguridad</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="auth">
+              <a href="../registro.html">Registro</a>
+              <a href="../login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-ia-master">
+      <div class="hero-master-ia-content">
+        <h1>Máster en Inteligencia Artificial de Conquer Blocks</h1>
+        <p>
+          Domina las tecnologías que están revolucionando el mundo: Machine
+          Learning, Deep Learning, Python, Data Science, Redes Neuronales,
+          Visión Artificial y mucho más.
+        </p>
+        <a href="../contacto.html" class="btn-master"
+          >Agenda tu sesión de consultoría</a
+        >
+      </div>
+    </section>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="curso-descripcion container">
+      <div class="curso-box">
+        <h2>Descripción del Curso</h2>
+
+        <h3>
+          El Máster en Inteligencia Artificial te prepara para convertirte en un
+          profesional capaz de crear modelos predictivos, trabajar con Big Data,
+          entrenar redes neuronales y aplicar técnicas avanzadas de Machine
+          Learning para resolver problemas reales.
+        </h3>
+
+        <ul class="curso-lista">
+          <li>Aprenderás a programar IA desde cero con Python.</li>
+          <li>
+            Dominarás Machine Learning y Deep Learning con proyectos reales.
+          </li>
+          <li>
+            Trabajarás con librerías como TensorFlow, Keras, PyTorch y
+            Scikit-Learn.
+          </li>
+          <li>
+            Aplicarás modelos para visión artificial, NLP y datos en tiempo
+            real.
+          </li>
+          <li>
+            Construirás modelos predictivos y crearás tu propio sistema de IA.
+          </li>
+        </ul>
+      </div>
+
+      <div class="curso-box">
+        <h2>Tecnologías que aprenderás</h2>
+
+        <div class="tecnologias-ia-grid">
+          <img src="../img/IA/Python.webp" alt="Python" />
+          <img src="../img/IA/TensorFlow.png" alt="TensorFlow" />
+          <img src="../img/IA/Pytorch.png" alt="PyTorch" />
+          <img src="../img/IA/scikit-learn.png" alt="Scikit-Learn" />
+          <img src="../img/IA/jupyter.png" alt="Jupyter" />
+          <img src="../img/IA/Numpy.png" alt="NumPy" />
+          <img src="../img/IA/Pandas.png" alt="Pandas" />
+          <img src="../img/IA/OpenCV.png" alt="OpenCV" />
+          <img src="../img/IA/GitHub.png" alt="GitHub" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAN DE ESTUDIOS -->
+    <section class="plan-estudios container">
+      <h2 class="titulo-seccion">Plan de Estudios</h2>
+
+      <div class="modulos-grid">
+        <div class="modulo-card">
+          <h3>Fundamentos de IA y Python</h3>
+          <p>
+            Aprenderás los fundamentos de programación en Python aplicados a la
+            Inteligencia Artificial.
+          </p>
+          <ul class="modulo-topics">
+            <li>Python para IA</li>
+            <li>Numpy, Pandas y Matplotlib</li>
+            <li>Manejo y limpieza de datos</li>
+            <li>Introducción al Machine Learning</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Machine Learning Profesional</h3>
+          <p>
+            Construye modelos predictivos utilizando los algoritmos más
+            importantes de aprendizaje supervisado y no supervisado.
+          </p>
+          <ul class="modulo-topics">
+            <li>Regresiones y Clasificación</li>
+            <li>Clustering y PCA</li>
+            <li>Optimización de modelos</li>
+            <li>Scikit-Learn avanzado</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Deep Learning con TensorFlow & PyTorch</h3>
+          <p>
+            Aprende a construir redes neuronales, CNNs, RNNs y modelos de IA
+            avanzados.
+          </p>
+          <ul class="modulo-topics">
+            <li>Redes Neuronales Artificiales</li>
+            <li>CNN para visión artificial</li>
+            <li>RNN y LSTM para secuencias</li>
+            <li>Entrenamiento y despliegue</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Procesamiento de Lenguaje Natural (NLP)</h3>
+          <p>Entrena modelos capaces de trabajar con texto humano.</p>
+          <ul class="modulo-topics">
+            <li>Tokenización y embeddings</li>
+            <li>Modelos Transformer</li>
+            <li>Chatbots básicos</li>
+            <li>Modelos generativos</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Visión Artificial</h3>
+          <p>
+            Aprende a procesar imágenes, detectar objetos y entrenar modelos de
+            reconocimiento.
+          </p>
+          <ul class="modulo-topics">
+            <li>OpenCV básico</li>
+            <li>Detección de objetos</li>
+            <li>Modelos de clasificación</li>
+            <li>Proyectos con CNN</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Proyecto Final en IA</h3>
+          <p>
+            Crearás un proyecto profesional aplicando todo lo aprendido: visión,
+            NLP o modelos predictivos.
+          </p>
+          <ul class="modulo-topics">
+            <li>Planificación y arquitectura</li>
+            <li>Entrenamiento del modelo</li>
+            <li>Optimización y testing</li>
+            <li>Despliegue y presentación</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTÍCULOS RELACIONADOS -->
+    <section class="articulos-relacionados">
+      <h2>Artículos Relacionados</h2>
+
+      <div class="articulos-grid">
+        <div class="articulo">
+          <a
+            href="https://planderecuperacion.gob.es/noticias/que-es-inteligencia-artificial-ia-prtr"
+            target="_blank"
+          >
+            <img
+              src="../img/IA/Que-es-la-IA-articulo1.jpg"
+              alt="Artículo IA 1"
+            />
+          </a>
+          <div class="contenido">
+            <h3>¿Qué es la Inteligencia Artificial?</h3>
+            <p>
+              Aprende los fundamentos de la IA y cómo está cambiando al mundo.
+            </p>
+            <a
+              href="https://www.gob.pe/69730-que-es-la-inteligencia-artificial-ia"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a href="https://www.tensorflow.org/" target="_blank">
+            <img
+              src="../img/IA/Learn_TensorFlow_for_Deep_Learning-articulo2.png"
+              alt="Artículo IA 2"
+            />
+          </a>
+          <div class="contenido">
+            <h3>TensorFlow y el Deep Learning</h3>
+            <p>Descubre cómo funciona una de las librerías más usadas en IA.</p>
+            <a
+              href="https://www.eaebarcelona.com/es/blog/tensorflow"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a href="https://www.datacamp.com/blog/what-is-machine-learning">
+            <img
+              src="../img/IA/machine-learning-articulo3.png"
+              alt="Artículo IA 3"
+            />
+          </a>
+          <div class="contenido">
+            <h3>¿Qué es Machine Learning?</h3>
+            <p>Una guía esencial para comprender el aprendizaje automático.</p>
+            <a
+              href="https://www.ibm.com/mx-es/think/topics/machine-learning"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <h2>¿Listo para convertirte en un Experto en Inteligencia Artificial?</h2>
+      <p>
+        Inscríbete ahora y empieza tu camino en una de las carreras con mayor
+        crecimiento en el mundo.
+      </p>
+
+      <div class="cta-buttons">
+        <a href="../registro.html" class="btn-cta primary">Inscríbete Ahora</a>
+        <a href="../contacto.html" class="btn-cta secondary"
+          >Solicitar Información</a
+        >
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="../img/Tail/logo-conquer.png"
+            alt="Logo"
+            class="footer-logo"
+          />
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../registro.html">Registro</a></li>
+            <li><a href="../login.html">Login</a></li>
+            <li><a href="../contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

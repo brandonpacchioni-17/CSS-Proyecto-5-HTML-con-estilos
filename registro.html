@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registro | Conquer Blocks</title>
+    <meta name="description" content="Registro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                    <a href="cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+
+       <div class="container header-content">
+
+
+    </header>
+    <div class="content-registro">
+    <video autoplay muted loop class="auth-video-bg">
+      <source src="img/common/Fondo-registro-y-login.mp4" type="video/mp4" />
+    </video>
+    <main class="auth-bg">
+      <div class="auth-card">
+        <img
+          src="img/common/Conquer-Blocks-logo.avif"
+          alt="Logo Conquer Blocks"
+        />
+
+        <form action="" enctype="multipart/form-data">
+          <div class="auth-input">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Nombre completo" required />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" required />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Correo electrónico" required />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Dirección" required />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-globe"></i>
+            <input type="url" placeholder="Página web (opcional)" />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-image"></i>
+            <input type="file" required />
+          </div>
+
+          <div class="auth-input">
+            <i class="fa-solid fa-pen"></i>
+            <textarea placeholder="Biografía" rows="4" required></textarea>
+          </div>
+          <div class="auth-input auth-terms">
+            <input type="checkbox" id="terms" required />
+            <label for="terms"
+              >Acepto los
+              <a href="aviso-legal.html" target="_blank"
+                >términos y condiciones</a
+              ></label
+            >
+          </div>
+
+          <button class="auth-btn">Registrarse</button>
+
+          <p class="auth-link">
+            ¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/e2125c6b07.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Columna izquierda -->
+        <div class="footer-left">
+          <img src="img/Tail/logo-conquer.png" alt="Logo" class="footer-logo" />
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna centro -->
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

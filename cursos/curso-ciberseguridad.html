@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Máster en Ciberseguridad | Conquer Blocks</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <script>
+      window.addEventListener("pageshow", (e) => {
+        if (e.persisted) location.reload();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="content-curso-ciberseguridad">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="../img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="../index.html">Inicio</a>
+            <a href="../quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="../cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="../cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                </div>
+            </div>
+
+            <a href="../registro.html">Registro</a>
+            <a href="../login.html">Login</a>
+        </nav>
+      <div class="container header-content">
+        <a href="../index.html" class="logo">
+          <img src="../img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="../quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="../cursos/curso-fullstack.html"
+                    >Máster en Desarrollo Web Full-Stack</a
+                  >
+                </li>
+                <li>
+                  <a href="../cursos/curso-ia.html"
+                    >Máster en Inteligencia Artificial</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="auth">
+              <a href="../registro.html">Registro</a>
+              <a href="../login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-ciber-master">
+      <div class="hero-master-content">
+        <h1>Máster en Ciberseguridad de Conquer Blocks</h1>
+        <p>
+          Conviértete en un experto capaz de proteger sistemas, redes y datos
+          frente a ataques reales. Aprende hacking ético, análisis forense,
+          OSINT y defensa profesional.
+        </p>
+
+        <a href="../contacto.html" class="btn-master"
+          >Agenda tu sesión de consultoría</a
+        >
+      </div>
+    </section>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="curso-descripcion container">
+      <div class="curso-box">
+        <h2>Descripción del Curso</h2>
+
+        <h3>
+          El Máster en Ciberseguridad te formará para detectar vulnerabilidades,
+          realizar auditorías profesionales, analizar ataques reales y dominar
+          herramientas avanzadas utilizadas por expertos en seguridad
+          informática.
+        </h3>
+
+        <ul class="curso-lista">
+          <li>
+            Aprenderás a realizar pentesting profesional con herramientas
+            reales.
+          </li>
+          <li>Detectarás fallos en redes, sistemas y aplicaciones web.</li>
+          <li>Analizarás malware, tráfico y evidencias digitales.</li>
+          <li>Dominarás Kali Linux, OSINT, Nmap, Burp Suite y Metasploit.</li>
+          <li>Simularás ataques reales como un hacker ético certificado.</li>
+        </ul>
+      </div>
+
+      <!-- TECNOLOGÍAS -->
+      <div class="curso-box">
+        <h2>Tecnologías que aprenderás</h2>
+
+        <div class="tecnologias-grid tecnologias-ciber">
+          <img src="../img/CiberSeguridad/Kali-Linux.png" alt="Kali Linux" />
+          <img src="../img/CiberSeguridad/Wireshark.png" alt="Wireshark" />
+          <img src="../img/CiberSeguridad/Burp-Suite.png" alt="Burp Suite" />
+          <img src="../img/CiberSeguridad/Nmap.png" alt="Nmap" />
+          <img src="../img/CiberSeguridad/Splunk.png" alt="Splunk" />
+          <img src="../img/CiberSeguridad/osint.svg" alt="OSINT" />
+          <img src="../img/CiberSeguridad/Linux.png" alt="Linux" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAN DE ESTUDIOS -->
+    <section class="plan-estudios container">
+      <h2 class="titulo-seccion">Plan de Estudios</h2>
+
+      <div class="modulos-grid">
+        <div class="modulo-card">
+          <h3>Fundamentos de Ciberseguridad</h3>
+          <p>
+            Aprende los principios clave de redes, sistemas, amenazas modernas y
+            el funcionamiento del ecosistema de seguridad.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Modelos de seguridad</li>
+            <li>Redes y protocolos</li>
+            <li>Sistemas operativos</li>
+            <li>Gestión de vulnerabilidades</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Hacking Ético & Pentesting</h3>
+          <p>
+            Domina el ciclo completo de un pentest profesional utilizando
+            herramientas reales.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Kali Linux</li>
+            <li>Nmap avanzado</li>
+            <li>Burp Suite</li>
+            <li>Explotación con Metasploit</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Análisis Forense & Redes</h3>
+          <p>Investiga intrusiones, analiza tráfico, malware y evidencias.</p>
+
+          <ul class="modulo-topics">
+            <li>Wireshark profesional</li>
+            <li>Análisis de logs</li>
+            <li>Forense digital</li>
+            <li>Detección de intrusiones</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>OSINT & Ciberinteligencia</h3>
+          <p>
+            Aprende a recolectar y analizar información para anticipar amenazas
+            reales.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>OSINT avanzado</li>
+            <li>Investigación digital</li>
+            <li>Ciberinteligencia</li>
+            <li>Gestión de riesgos</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Seguridad Empresarial</h3>
+          <p>
+            Implementa buenas prácticas corporativas y protege sistemas reales.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Hardening Linux</li>
+            <li>Seguridad en servidores</li>
+            <li>Políticas y normativas</li>
+            <li>Respuesta a incidentes</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Proyecto Final</h3>
+          <p>Realizarás un ataque y defensa completo en un entorno realista.</p>
+
+          <ul class="modulo-topics">
+            <li>Pentesting completo</li>
+            <li>Informe profesional</li>
+            <li>Presentación final</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTÍCULOS RELACIONADOS -->
+    <section class="articulos-relacionados">
+      <h2>Artículos Relacionados</h2>
+
+      <div class="articulos-grid">
+        <div class="articulo">
+          <a
+            href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security"
+            target="_blank"
+          >
+            <img
+              src="../img/CiberSeguridad/Articulo-1.jpg"
+              alt="Intro Ciberseguridad"
+            />
+          </a>
+
+          <div class="contenido">
+            <h3>¿Qué es la Ciberseguridad?</h3>
+            <p>
+              Conoce los fundamentos y la importancia de proteger sistemas y
+              datos.
+            </p>
+            <a
+              href="https://latam.kaspersky.com/resource-center/definitions/what-is-cyber-security"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a
+            href="https://www.techtarget.com/searchsecurity/definition/ethical-hacking"
+            target="_blank"
+          >
+            <img
+              src="../img/CiberSeguridad/Articulo-2.webp"
+              alt="Hacking Ético"
+            />
+          </a>
+
+          <div class="contenido">
+            <h3>Seguridad en Redes</h3>
+            <p>
+              Aprende a proteger redes empresariales mediante firewalls, VPNs,
+              IDS/IPS y buenas prácticas de seguridad.
+            </p>
+            <a
+              href="https://www.ibm.com/es-es/think/topics/network-security"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a href="https://www.varonis.com/blog/cyber-attacks" target="_blank">
+            <img
+              src="../img/CiberSeguridad/Articulo-3.jpg"
+              alt="Ciberataques"
+            />
+          </a>
+
+          <div class="contenido">
+            <h3>Tipos de Ciberataques</h3>
+            <p>
+              Aprende a identificar las amenazas más comunes en el mundo
+              digital.
+            </p>
+            <a
+              href="https://www.fortinet.com/lat/resources/cyberglossary/types-of-cyber-attacks"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <h2>¿Listo para convertirte en un Experto en Ciberseguridad?</h2>
+      <p>
+        Inscríbete ahora y comienza tu camino profesional como hacker ético.
+      </p>
+
+      <div class="cta-buttons">
+        <a href="../registro.html" class="btn-cta primary">Inscríbete Ahora</a>
+        <a href="../contacto.html" class="btn-cta secondary"
+          >Solicitar Información</a
+        >
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="../img/Tail/logo-conquer.png"
+            alt="Logo"
+            class="footer-logo"
+          />
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../registro.html">Registro</a></li>
+            <li><a href="../login.html">Login</a></li>
+            <li><a href="../contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

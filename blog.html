@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog | Conquer Blocks</title>
+    <meta
+      name="description"
+      content="Descubre las últimas novedades del mundo de la programación y tecnología."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS GENERAL -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CSS DEL BLOG -->
+    <link rel="stylesheet" href="css/blog.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="content-blog">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                    <a href="cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+        </nav>
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="cursos/curso-fullstack.html"
+                    >Máster en Desarrollo Web Full-Stack</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ia.html"
+                    >Máster en Inteligencia Artificial</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ciberseguridad.html"
+                    >Máster en Ciberseguridad</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="auth">
+              <a href="registro.html">Registro</a>
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTENIDO DEL BLOG -->
+    <main class="blog-wrapper">
+      <section class="hero-blog">
+        <h1>Últimas Noticias</h1>
+        <p>
+          Mantente al día con las tendencias más importantes en programación,
+          inteligencia artificial, ciberseguridad y el mundo del desarrollo
+          tecnológico.
+        </p>
+      </section>
+
+      <section class="blog-grid">
+        <!-- CARD 1 -->
+        <article class="blog-card">
+          <img src="img/Blog/diagrama de flujo.jpg" alt="Diagrama de flujo" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLHWlGHjQmknIgM0YNGF6wgFs1m6LF6VND&autoplay=1')"
+            >
+              ¿Qué es un Diagrama de Flujo?
+            </h3>
+            <span class="date">10 de abril, 2025</span>
+            <p>
+              La herramienta base para visualizar procesos antes de programar.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="blog-card">
+          <img src="img/Blog/algoritmos.jpg" alt="Algoritmos" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLCwv6QCxGOjZxhQGUSV5zCnOYVajzRkms&autoplay=1')"
+            >
+              ¿Qué es un Algoritmo?
+            </h3>
+            <span class="date">3 de mayo, 2025</span>
+            <p>Descubre cómo funcionan y por qué son esenciales en software.</p>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="blog-card">
+          <img src="img/Blog/Articulo-1.jpg" alt="Ciberseguridad" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PL7pkSK1xbGD5lNtPEBhIl20MA1kmr8kry&autoplay=1')"
+            >
+              El Futuro de la Ciberseguridad
+            </h3>
+            <span class="date">12 de enero, 2025</span>
+            <p>Tendencias y amenazas digitales en constante evolución.</p>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="blog-card">
+          <img src="img/Blog/Principiantes.jpg" alt="Programación" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLV78EPlNCZ5B1vHkRicCAdpbDqZ1DpLgM&autoplay=1')"
+            >
+              Programación para Principiantes
+            </h3>
+            <span class="date">20 de febrero, 2025</span>
+            <p>Una introducción clara para dar tus primeros pasos.</p>
+          </div>
+        </article>
+
+        <!-- CARD 5 -->
+        <article class="blog-card">
+          <img src="img/Blog/Desde-cero.jpg" alt="HTML y CSS" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLMp5rDgAZPCi51aybeg5YZwvTPbBDT3a8&autoplay=1')"
+            >
+              HTML y CSS desde Cero
+            </h3>
+            <span class="date">2 de marzo, 2025</span>
+            <p>Aprende a construir tus primeras páginas web profesionales.</p>
+          </div>
+        </article>
+
+        <!-- CARD 6 -->
+        <article class="blog-card">
+          <img src="img/Blog/JS.jpg" alt="JavaScript" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLk5Dq2_erbOCX9T_H13zwJ3rEcaIWz_UX&autoplay=1')"
+            >
+              JavaScript: Desde Básico a Avanzado
+            </h3>
+            <span class="date">15 de abril, 2025</span>
+            <p>El lenguaje más usado del mundo explicado paso a paso.</p>
+          </div>
+        </article>
+
+        <!-- CARD 7 -->
+        <article class="blog-card">
+          <img src="img/Blog/python.jpg" alt="Python" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLYq_mcte9NvDA2Xi5Qjl1DrH5LuDKDlAI&autoplay=1')"
+            >
+              Python para Todos
+            </h3>
+            <span class="date">28 de abril, 2025</span>
+            <p>
+              Aprende programación moderna con uno de los lenguajes más usados.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 8 (CORREGIDA, AHORA SÍ FUNCIONA EL VIDEO) -->
+        <article class="blog-card">
+          <img src="img/Blog/IA.jpg" alt="Inteligencia Artificial" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PL1F9mvbjP-UKdjsIf1-_CKPwmYDbJrgzU&autoplay=1')"
+            >
+              Introducción a la Inteligencia Artificial
+            </h3>
+            <span class="date">1 de mayo, 2025</span>
+            <p>Conceptos básicos para entender el futuro tecnológico.</p>
+          </div>
+        </article>
+
+        <!-- CARD 9 -->
+        <article class="blog-card">
+          <img src="img/Blog/Tipos-de-redes.webp" alt="Redes" />
+          <div class="blog-info">
+            <h3
+              onclick="abrirVideo('https://www.youtube.com/embed/videoseries?list=PLthzZWJ1qD2v9xeTtcVrGgdylQm-HoIvi&autoplay=1')"
+            >
+              Redes y Telecomunicaciones
+            </h3>
+            <span class="date">6 de mayo, 2025</span>
+            <p>Cómo funcionan las redes que conectan a todo el mundo.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="img/Tail/logo-conquer.png" alt="Logo" class="footer-logo" />
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <script>
+      function abrirVideo(url) {
+        const modal = document.getElementById("videoModal");
+        const iframe = document.getElementById("videoFrame");
+
+        modal.style.display = "flex";
+        iframe.src = url;
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const modal = document.getElementById("videoModal");
+        const iframe = document.getElementById("videoFrame");
+        const closeBtn = document.getElementById("closeModal");
+
+        closeBtn.addEventListener("click", () => {
+          iframe.src = "";
+          modal.style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+          if (e.target === modal) {
+            iframe.src = "";
+            modal.style.display = "none";
+          }
+        });
+      });
+    </script>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

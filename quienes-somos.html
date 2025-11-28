@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quienes somos</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content-quienes-somos">
+    <header class="header">
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                    <a href="cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+        </nav>
+      <div class="container header-content">
+        <!-- LOGO -->
+        <a href="index.html" class="logo">
+          <img src="img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <ul>
+            <li><a href="quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="cursos/curso-fullstack.html"
+                    >Máster en Desarrollo Web Full Stack</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ia.html"
+                    >Máster en Inteligencia Artificial</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ciberseguridad.html"
+                    >Máster en Ciberseguridad</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="auth">
+              <a href="registro.html">Registro</a>
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="sobre-nosotros">
+      <div class="container-sn">
+        <h1>Sobre Nosotros</h1>
+        <p>
+          Somos una organización dedicada a brindar información y servicios de
+          calidad. Nuestro equipo está formado por profesionales comprometidos
+          en ofrecer soluciones modernas, eficientes y adaptadas a las
+          necesidades actuales.
+        </p>
+      </div>
+    </section>
+
+    <!-- Tarjetas del Equipo -->
+
+    <section class="equipo container">
+      <h2>Nuestro Equipo</h2>
+
+      <div class="cards">
+        <!-- CARD 1 -->
+        <article class="card">
+          <img
+            src="img/quienes-somos/Alexis-Bautista.jpg"
+            alt="Alexis Bautista"
+          />
+          <h3>Alexis Bautista</h3>
+          <p class="cargo">CEO</p>
+          <h4>
+            Es el fundador y director ejecutivo de ConquerX, un proyecto
+            educativo que nació con la visión de acercar las tecnologías
+            emergentes a todas las personas. Bajo su liderazgo, la plataforma ha
+            desarrollado programas especializados en criptomonedas, blockchain y
+            desarrollo web, combinando teoría, práctica y experiencias reales de
+            la industria. Su misión es impulsar a nuevos profesionales mediante
+            contenido claro, accesible y actualizado.
+          </h4>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <img
+            src="img/quienes-somos/Bienvenido-Saez.jpg"
+            alt="Bienvenido Saez"
+          />
+          <h3>Bienvenido Saez</h3>
+          <p class="cargo">Director académico</p>
+          <h4>
+            Bienvenido cuenta con más de 15 años de experiencia dedicados a la
+            enseñanza y la formación tecnológica. A lo largo de su trayectoria
+            ha guiado a cientos de estudiantes en el aprendizaje de HTML, CSS,
+            JavaScript y Django, combinando una sólida base teórica con
+            prácticas reales orientadas al desarrollo profesional. Su enfoque se
+            centra en crear entornos de aprendizaje claros y estructurados,
+            donde cada alumno pueda avanzar a su propio ritmo y comprender a
+            profundidad los fundamentos del desarrollo web moderno.
+          </h4>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <img src="img/quienes-somos/Yolanda-Lopez.png" alt="Yolanda Lopez" />
+          <h3>Yolanda López</h3>
+          <p class="cargo">Ingeniera en Telecomunicaciones</p>
+          <h4>
+            Imparte las asignaturas relacionadas con SQL y el procesamiento de
+            datos dentro de nuestro Máster, ofreciendo una formación completa en
+            análisis, gestión y transformación de información. Además, es
+            responsable de introducir a los alumnos en el lenguaje de
+            programación Solidity, clave para el desarrollo de contratos
+            inteligentes en entornos blockchain.
+          </h4>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="card">
+          <img
+            src="img/quienes-somos/Alejandro-Medrano.png"
+            alt="Alejandro Medrano"
+          />
+          <h3>Alejandro Medrano</h3>
+          <p class="cargo">Ingeniero en Machine Learning</p>
+          <h4>
+            Actualmente es Ingeniero de Machine Learning en Visium, donde
+            desarrolla soluciones basadas en inteligencia artificial. Antes de
+            incorporarse a la empresa, trabajó en Indra creando sistemas y
+            modelos orientados al procesamiento del lenguaje natural, aplicando
+            un enfoque data-driven para resolver desafíos complejos en este
+            campo.
+          </h4>
+        </article>
+
+        <!-- CARD 5 -->
+        <article class="card">
+          <img src="img/quienes-somos/alan-buscaglia.avif" alt="Miembro" />
+          <h3>Alan Buscaglia</h3>
+          <p class="cargo">Arquitecto de software</p>
+          <h4>
+            Es arquitecto líder front-end con una sólida pasión por el
+            desarrollo de interfaces escalables, eficientes y centradas en el
+            rendimiento. Cuenta con experiencia en big data, diseño de
+            arquitecturas modernas y la implementación de buenas prácticas que
+            garantizan productos robustos y mantenibles.
+          </h4>
+        </article>
+
+        <!-- CARD 6 -->
+        <article class="card">
+          <img src="img/quienes-somos/carlos-azaustre.avif" alt="Miembro" />
+          <h3>Carlos Azaustre</h3>
+          <p class="cargo">Ingeniero telemátiCo</p>
+          <h4>
+            Desde 2019 cuenta con el reconocimiento de Google como Developer
+            Expert (GDE) en Tecnologías Web, destacando por sus aportes y
+            experiencia en el ecosistema front-end. Además, fue distinguido por
+            Microsoft como MVP (Most Valuable Professional) en 2022 y 2023, un
+            premio otorgado a profesionales con contribuciones excepcionales a
+            la comunidad tecnológica.
+          </h4>
+        </article>
+
+        <!-- CARD 7 -->
+        <article class="card">
+          <img src="img/quienes-somos/pedro-plasencia.avif" alt="Miembro" />
+          <h3>Pedro Plasencia</h3>
+          <p class="cargo">Ingeniero de sistemas</p>
+          <h4>
+            Especializado en desarrollo web, actualmente ejerciendo como
+            technical leader de frontend, líder de equipo y arquitecto de
+            soluciones web como freelance. Aprendiz desenfrenado y mentor
+            entusiasta.
+          </h4>
+        </article>
+
+        <!-- CARD 8 -->
+        <article class="card">
+          <img src="img/quienes-somos/Ángel-González.avif" alt="Miembro" />
+          <h3>Ángel González</h3>
+          <p class="cargo">Ingeniero de software</p>
+          <h4>
+            Graduado en Ingeniería Robótica por la UMA, ha desarrollado su
+            carrera trabajando en empresas de alto nivel como Avanade, IBM y
+            Banco Santander, donde participó en proyectos tecnológicos de gran
+            escala e innovación.
+          </h4>
+        </article>
+
+        <!-- CARD 9 -->
+        <article class="card">
+          <img src="img/quienes-somos/Iván-Martín.avif  " alt="Miembro" />
+          <h3>JIván Martín</h3>
+          <p class="cargo">Ingeniero aeronáutico</p>
+          <h4>
+            Como consultor especialista en inteligencia artificial en KPMG, ha
+            desarrollado soluciones enfocadas en optimizar procesos internos y
+            mejorar la eficiencia operativa. Actualmente es responsable global
+            de Información No Financiera y Sostenibilidad en Acciona, donde
+            impulsa iniciativas orientadas a la transparencia, el cumplimiento y
+            la integración de prácticas sostenibles dentro de la organización.
+          </h4>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección de Valores -->
+    <section class="valores">
+      <h2>Nuestros Valores</h2>
+
+      <div class="valores-grid">
+        <div class="valor-item">
+          <i class="fa-solid fa-graduation-cap icon"></i>
+          <h3>Excelencia Educativa</h3>
+          <p>
+            Nos dedicamos a brindar una enseñanza moderna y pertinente,
+            respaldada por altos estándares de calidad para asegurar una
+            experiencia formativa excepcional.
+          </p>
+        </div>
+
+        <div class="valor-item">
+          <i class="fa-solid fa-people-group icon"></i>
+          <h3>Comunidad</h3>
+          <p>
+            Fomentamos un espacio de aprendizaje colaborativo en el que los
+            estudiantes puedan desarrollarse en conjunto y brindarse apoyo unos
+            a otros.
+          </p>
+        </div>
+
+        <div class="valor-item">
+          <i class="fa-solid fa-laptop-code icon"></i>
+          <h3>Innovación</h3>
+          <p>
+            Nos mantenemos al frente de las tecnologías emergentes y de las
+            metodologías educativas más actuales para brindar una experiencia de
+            aprendizaje de alto nivel.
+          </p>
+        </div>
+
+        <div class="valor-item">
+          <i class="fa-solid fa-briefcase icon"></i>
+          <h3>Enfoque Práctico</h3>
+          <p>
+            Confiamos en el aprendizaje basado en la acción, utilizando
+            proyectos reales que preparan a nuestros estudiantes para enfrentar
+            los retos del entorno profesional.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Columna izquierda -->
+        <div class="footer-left">
+          <img src="img/Tail/logo-conquer.png" alt="Logo" class="footer-logo" />
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna centro -->
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

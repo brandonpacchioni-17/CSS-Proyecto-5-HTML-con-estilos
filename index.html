@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conquer Blocks Instituto</title>
+<link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <script>
+    window.addEventListener("pageshow", (e) => {
+      if (e.persisted) location.reload();
+    });
+  </script>
+
+
+  <body>
+    <div class="content-index">
+      <!-- HEADER -->
+      <header class="header">
+        <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="cursos/curso-fullstack.html">Máster en Desarrollo Web Full-Stack</a>
+                    <a href="cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                    <a href="cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+
+       <div class="container header-content">
+
+
+        <!-- LOGO -->
+        <a href="index.html" class="logo">
+          <img src="img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <ul>
+            <li><a href="quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="cursos/curso-fullstack.html"
+                    >Máster en Desarrollo Web Full-Stack</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ia.html"
+                    >Máster en Inteligencia Artificial</a
+                  >
+                </li>
+                <li>
+                  <a href="cursos/curso-ciberseguridad.html"
+                    >Máster en Ciberseguridad</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="auth">
+              <a href="registro.html">Registro</a>
+              <a href="login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <!-- HERO CON VIDEO -->
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="img/Background/Background.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-text">
+        <h1 class="titulo">
+          <span class="conquer">CONQUER</span>
+          <span class="blocks">BLOCKS</span>
+        </h1>
+
+        <p>
+          IMPULSA TU DESARROLLO PROFESIONAL CON UNA FORMACIÓN SÓLIDA EN
+          PROGRAMACIÓN
+        </p>
+        <a href="quienes-somos.html" class="btn-primary">Ver información</a>
+      </div>
+      <a href="#formaciones" class="scroll-arrow">⬇</a>
+    </section>
+
+    <!-- FORMACIONES -->
+    <section id="formaciones" class="formaciones container">
+      <h2>Nuestras Formaciones</h2>
+      <p>Programas diseñados para impulsarte como desarrollador profesional.</p>
+
+      <div class="cards-container">
+        <div class="cards">
+          <article class="card">
+            <img src="img/Fullstack/banner-Fullstack.avif" alt="" />
+            <h3>Desarrollador Full-stack</h3>
+            <p>Aprende desarrollo web completo, frontend y backend.</p>
+            <a href="cursos/curso-fullstack.html">Ver Curso</a>
+          </article>
+        <article class="card">
+          <img src="img/CiberSeguridad/Banner-CiberSeguridad.jpg" alt="" />
+          <h3>Especialización en Ciberseguridad</h3>
+          <p>
+            Desarrolla competencias para asegurar infraestructuras digitales y
+            responder de manera eficiente ante incidentes.
+          </p>
+          <a href="cursos/curso-ciberseguridad.html">Ver Curso</a>
+        </article>
+        <article class="card">
+          <img src="img/IA/banner-Inteligencia-artificial.avif" alt="" />
+          <h3>Inteligencia Artificial</h3>
+          <p>Domina la arquitectura y bases de la IA moderna.</p>
+          <a href="cursos/curso-ia.html">Ver Curso</a>
+        </article>
+      </div>
+      <div>
+    </section>
+
+    <!-- PROFESORES -->
+  <section class="profesores-wrapper">
+    <section class="profesores container">
+      <h2>Nuestros profesores</h2>
+
+  <p class="profesores-intro">
+    Profesionales con amplia experiencia en la industria tecnológica, comprometidos con tu formación integral y éxito profesional.
+  </p>
+  <div class="cards">
+    <article class="card profesor">
+      <img src="img/quienes-somos/Alejandro-Medrano.png" alt="Alejandro Medrano" />
+      <h3>Alejandro Medrano</h3>
+      <h5>Ingeniero en Machine Learning</h5>
+      <p>Ingeniero en Machine Learning en Visium, con experiencia previa en Indra como especialista en soluciones basadas en datos para resolver desafíos relacionados con el procesamiento del lenguaje natural.</p>
+    </article>
+
+    <article class="card profesor">
+      <img src="img/quienes-somos/Bienvenido-Saez.jpg" alt="Bienvenido Saez" />
+      <h3>Bienvenido Saez</h3>
+      <h5>Director académico</h5>
+      <p>Con más de 15 años de trayectoria en educación, Bienvenido se especializa en la enseñanza de HTML, CSS, JavaScript y Django, guiando a nuevos talentos a dominar estas tecnologías</p>
+    </article>
+
+    <article class="card profesor">
+      <div class="img-circle">
+        <img src="img/quienes-somos/Yolanda-Lopez.png" alt="Yolanda Lopez"/>
+      </div>
+
+      <h3>Yolanda Lopez</h3>
+      <h5>Ingeniera en Telecomunicaciones</h5>
+      <p>Se encarga de la enseñanza de SQL y la gestión integral del procesamiento de datos en nuestro Máster, complementado con la instrucción en el lenguaje Solidity.</p>
+     </article>
+    </div>
+  </section>
+</section>
+
+
+    <!-- BLOG -->
+    <section class="blog-destacado container">
+  <h2>Nuestro Blog</h2>
+
+  <div class="blog-grid">
+
+    <article class="blog-card">
+      <img src="img/home/desarrolador-full-stack.jpg" alt="">
+      <span class="fecha">25 de abril, 2025</span>
+      <h3>Funciones de un Desarrollador Full-Stack</h3>
+      <p>Un desarrollador full-stack domina tanto el frontend como el backend, conectando diseño, lógica y bases de datos. Su rol permite crear soluciones completas y eficientes que abarcan toda la estructura de una aplicación.</p>
+      <a href="blog.html">Leer más</a>
+    </article>
+
+    <article class="blog-card">
+      <img src="img/home/ciberseguridad.webp" alt="">
+      <span class="fecha">9 de junio, 2025</span>
+      <h3>Ciberseguridad: El Escudo Invisible del Mundo Digital</h3>
+      <p>La ciberseguridad se encarga de proteger sistemas, datos y redes frente a ataques cada vez más sofisticados. Entender sus principios es clave para prevenir riesgos y mantener un entorno digital confiable.</p>
+      <a href="blog.html">Leer más</a>
+    </article>
+
+    <article class="blog-card">
+      <img src="img/home/Imagen-IA.png" alt="">
+      <span class="fecha">21 de octubre, 2024</span>
+      <h3>Cómo la IA Está Cambiando el Desarrollo de Software</h3>
+      <p>La inteligencia artificial está transformando la forma en que se diseñan y construyen aplicaciones. Automatiza tareas, agiliza el desarrollo y abre nuevas posibilidades para crear soluciones más inteligentes.</p>
+      <a href="blog.html">Leer más</a>
+    </article>
+
+
+  </div>
+
+  <div class="blog-ver-mas">
+    <a href="blog.html" class="btn-ver-mas">Ver todas las noticias</a>
+  </div>
+</section>
+
+<section class="sobre-seccion">
+  <div class="sobre-container">
+    <h2>Quiénes Somos</h2>
+    <p>
+      Conquer Blocks es la mayor academia de programación en habla hispana,
+      y la que cuenta con mayores garantías de empleo.
+    </p>
+
+    <a href="quienes-somos.html" class="btn-sobre">Conoce más sobre nosotros</a>
+  </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+  <div class="footer-container">
+
+
+    <div class="footer-left">
+      <img src="img/Tail/logo-conquer.png" alt="Logo" class="footer-logo">
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+
+    <div class="footer-center">
+      <ul class="footer-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <p class="footer-copy">©2025 Academia Conquer</p>
+      <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+    </div>
+
+    </div>
+
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>

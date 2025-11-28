@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Full-Stack | Conquer Blocks</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-Conquer.png"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <script>
+    window.addEventListener("pageshow", (e) => {
+      if (e.persisted) location.reload();
+    });
+  </script>
+
+  <body>
+    <div class="content-curso-fullstack">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- MENU HAMBURGUESA (solo móvil) -->
+        <div class="menu-icon" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeMenu">x</div>
+
+            <img src="../img/common/Conquer-Blocks-logo.avif" class="side-logo">
+
+
+            <a href="../index.html">Inicio</a>
+            <a href="../quienes-somos.html">Sobre Nosotros</a>
+
+            <div class="dropdown">
+                <span class="dropdown-title">Cursos ▾</span>
+                <div class="dropdown-items">
+                    <a href="../cursos/curso-ia.html">Máster en Inteligencia Artificial</a>
+                    <a href="../cursos/curso-ciberseguridad.html">Máster en Ciberseguridad</a>
+                </div>
+            </div>
+
+            <a href="../registro.html">Registro</a>
+            <a href="../login.html">Login</a>
+        </nav>
+      <div class="container header-content">
+        <!-- LOGO -->
+        <a href="../index.html" class="logo">
+          <img src="../img/common/Conquer-Blocks-logo.avif" alt="Logo" />
+        </a>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <ul>
+            <li><a href="../quienes-somos.html">Sobre Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"> Cursos <span class="arrow">▾</span> </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="../cursos/curso-ia.html"
+                    >Máster en Inteligencia Artificial</a
+                  >
+                </li>
+                <li>
+                  <a href="../cursos/curso-ciberseguridad.html"
+                    >Máster en Ciberseguridad</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="auth">
+              <a href="../registro.html">Registro</a>
+              <a href="../login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-master">
+      <div class="hero-master-content">
+        <h1>Mástér en Desarrollo Full-Stack de Conquer Blocks</h1>
+        <p>
+          Aprende todos los fundamentos de la web. Una formación completa donde
+          adquirirás todo lo necesario para convertirte en Desarrollador Full
+          Stack, incluso si comienzas desde cero.
+        </p>
+        <a href="../contacto.html" class="btn-master"
+          >Agenda tu sesión de consultoría</a
+        >
+      </div>
+    </section>
+    <section class="curso-descripcion container">
+      <div class="curso-box">
+        <h2>Descripción del Curso</h2>
+        <h3>
+          Con nuestro Máster Online en Desarrollo Full-Stack te prepararás para
+          ingresar con solidez en una de las áreas tecnológicas con mayor
+          crecimiento y demanda laboral. A lo largo del programa dominarás las
+          herramientas, lenguajes y metodologías esenciales para convertirte en
+          un desarrollador web completo y altamente competente.
+        </h3>
+        <ul class="curso-lista">
+          <li>Aprenderás las bases esenciales del desarrollo web moderno.</li>
+          <li>
+            Dominarás los lenguajes de programación más utilizados por empresas
+            actuales.
+          </li>
+          <li>
+            Conocerás tecnologías backend como Node.js, Python y bases de datos
+            SQL/NoSQL.
+          </li>
+          <li>
+            Practicarás con proyectos reales enfocados en el mercado laboral.
+          </li>
+          <li>Explorarás frameworks de frontend como React, Angular o Vue.</li>
+        </ul>
+      </div>
+
+      <div class="curso-box">
+        <h2>Tecnologías que aprenderás</h2>
+        <div class="tecnologias-grid">
+          <img src="../img/Fullstack/html-5.png" alt="HTML" />
+          <img src="../img/Fullstack/css.png" alt="CSS" />
+          <img src="../img/Fullstack/javascript.webp" alt="JavaScript" />
+          <img src="../img/Fullstack/PHP.png" alt="php" />
+          <img src="../img/Fullstack/MySQL.jpg" alt="MySQL" />
+          <img src="../img/Fullstack/React.png" alt="React" />
+          <img src="../img/Fullstack/Python.webp" alt="Python" />
+          <img src="../img/Fullstack/GitHub.png" alt="GitHub" />
+          <img src="../img/Fullstack/nodejs.png" alt="nodejs" />
+        </div>
+      </div>
+    </section>
+
+    <section class="plan-estudios container">
+      <h2 class="titulo-seccion">Plan de Estudios</h2>
+
+      <div class="modulos-grid">
+        <div class="modulo-card">
+          <h3>Introducción a la Programación</h3>
+          <p>
+            Comenzarás desarrollando una base sólida en lógica, pseudocódigo y
+            los conceptos esenciales para entender cómo funciona la programación
+            moderna.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Pseudocódigo y análisis de problemas</li>
+            <li>Fundamentos con Python</li>
+            <li>Principios de Programación Orientada a Objetos</li>
+            <li>Uso básico de Linux / Bash</li>
+            <li>Control de versiones con Git y GitHub</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>JavaScript Desde Cero</h3>
+          <p>
+            Aprenderás JavaScript desde los fundamentos hasta conceptos modernos
+            como ES6+, asincronía, manejo del DOM y consumo de APIs.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Sintaxis moderna (ES6+)</li>
+            <li>Promesas y Async/Await</li>
+            <li>Manipulación del DOM</li>
+            <li>Fetch y consumo de APIs</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Programación Backend con Node.js</h3>
+          <p>
+            Construirás servidores y APIs con Node.js y Express, trabajando con
+            rutas, autenticación y buenas prácticas de backend.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Fundamentos de Node.js</li>
+            <li>Express.js y rutas</li>
+            <li>APIs REST</li>
+            <li>Autenticación con JWT</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Bases de Datos SQL y NoSQL</h3>
+          <p>
+            Aprenderás a gestionar y estructurar bases de datos como MySQL y
+            MongoDB, realizando consultas avanzadas y aplicando modelos
+            eficientes.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Introducción a MongoDB</li>
+            <li>Modelado y diseño relacional con MySQL</li>
+            <li>Consultas avanzadas y optimización</li>
+            <li>Uso de ORM/ODM</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Frameworks Frontend</h3>
+          <p>
+            Crearás interfaces dinámicas y modernas utilizando React.js,
+            manejando estados, componentes, hooks, rutas y patrones de
+            arquitectura frontend.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>React.js desde los cimientos</li>
+            <li>Hooks y manejo de estado</li>
+            <li>React Router</li>
+            <li>Patrones y gestión global (Redux u alternatives)</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card">
+          <h3>Proyecto Final Full-Stack</h3>
+          <p>
+            Desarrollarás una aplicación completa integrando frontend, backend y
+            base de datos, aplicando buenas prácticas y despliegue básico.
+          </p>
+
+          <ul class="modulo-topics">
+            <li>Arquitectura y planificación del proyecto</li>
+            <li>Integración frontend + backend + DB</li>
+            <li>Pruebas básicas y despliegue</li>
+            <li>Documentación y buenas prácticas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="articulos-relacionados">
+      <h2>Artículos Relacionados</h2>
+
+      <div class="articulos-grid">
+        <div class="articulo">
+          <a
+            href="https://www.freecodecamp.org/news/what-is-full-stack-developer/"
+            target="_blank"
+          >
+            <img
+              src="../img/Fullstack/Full-Stack-articulo.jpg"
+              alt="Artículo 1"
+            />
+          </a>
+          <div class="contenido">
+            <h3>¿Qué es el Desarrollo Full Stack?</h3>
+            <p>
+              Descubre qué hace un desarrollador Full Stack y por qué es tan
+              demandado hoy.
+            </p>
+            <a
+              href="https://aws.amazon.com/what-is/full-stack-development/"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a
+            href="https://www.hostinger.com/tutorials/most-in-demand-programming-languages/"
+            target="_blank"
+          >
+            <img
+              src="../img/Fullstack/Demandas-articulo2.jpg"
+              alt="Artículo 2"
+            />
+          </a>
+          <div class="contenido">
+            <h3>Las Tecnologías con más Demandadas</h3>
+            <p>
+              Conoce las tecnologías que dominarán el mercado laboral en los
+              próximos años.
+            </p>
+            <a
+              href="https://www.ironhack.com/es/blog/las-competencias-tecnologicas-mas-demandadas-en-2023"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+
+        <div class="articulo">
+          <a
+            href="https://www.w3schools.com/whatis/default.asp"
+            target="_blank"
+          >
+            <img
+              src="../img/Fullstack/Como-Programar-articulo3.jpg"
+              alt="Artículo 3"
+            />
+          </a>
+          <div class="contenido">
+            <h3>Cómo Empezar en la Programación</h3>
+            <p>
+              Una guía rápida para comenzar tu camino como programador desde
+              cero.
+            </p>
+            <a
+              href="https://www.w3schools.com/whatis/default.asp"
+              target="_blank"
+              >Leer más →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <h2>¿Listo para convertirte en Desarrollador Full Stack?</h2>
+      <p>
+        Inscríbete ahora y comienza tu camino hacia una de las profesiones más
+        demandadas del mercado laboral.
+      </p>
+
+      <div class="cta-buttons">
+        <a href="../registro.html" class="btn-cta primary">Inscríbete Ahora</a>
+        <a href="../contacto.html" class="btn-cta secondary"
+          >Solicitar Información</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Columna izquierda -->
+        <div class="footer-left">
+          <img
+            src="../img/Tail/logo-conquer.png"
+            alt="Logo"
+            class="footer-logo"
+          />
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna centro -->
+        <div class="footer-center">
+          <ul class="footer-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../registro.html">Registro</a></li>
+            <li><a href="../login.html">Login</a></li>
+            <li><a href="../contacto.html">Contacto</a></li>
+          </ul>
+
+          <p class="footer-copy">©2025 Academia Conquer</p>
+          <a href="aviso-legal.html" class="footer-legal">Aviso Legal</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+  const sideMenu = document.getElementById("sideMenu");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+
+  menuToggle.onclick = () => sideMenu.style.left = "0";
+  closeMenu.onclick = () => sideMenu.style.left = "-100%";
+
+  // Dropdown
+  const dropdownTitle = document.querySelector(".dropdown-title");
+  if (dropdownTitle) {
+      dropdownTitle.onclick = function () {
+          this.parentElement.classList.toggle("open");
+      };
+  }
+</script>
+  </body>
+</html>
